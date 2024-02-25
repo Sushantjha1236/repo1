@@ -5,6 +5,5 @@ class Solution {
             if (visited[neighbor] == 0) {
                 depthFirstSearch(adjacencyList, visited, neighbor);
             }
-        }
-
-    
+            System.out.println("hiee sj ");
+        }  
